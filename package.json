@@ -2,8 +2,22 @@
   "name": "gulp-cache-stream",
   "version": "1.0.1",
   "description": "A simple gulp stream that applies transforms only to files that have been modified since the last invocation, useful for significantly speeding up incremental build times, e.g. for use with gulp watch",
+  "keywords": [
+    "gulp",
+    "cache",
+    "stream",
+    "streams",
+    "transform",
+    "transforms",
+    "modified",
+    "unmodified",
+    "files"
+  ],
   "main": "dist/gulp-cache-stream.js",
-  "author": "Brad Christensen",
+  "author": {
+    "name": "Brad Christensen",
+    "email": "brad@christensen.co.nz"
+  },
   "license": "ISC",
   "devDependencies": {
     "gulp": "^3.9.0",
@@ -15,5 +29,15 @@
   "dependencies": {
     "buffer-equal": "0.0.1",
     "through2": "^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bradchristensen/gulp-cache-stream.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bradchristensen/gulp-cache-stream/issues"
+  },
+  "scripts": {
+    "prepublish": "gulp"
   }
 }
