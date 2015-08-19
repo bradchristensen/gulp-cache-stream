@@ -15,6 +15,6 @@ gulp.task('minify', ['main'], function () {
 		.pipe(uglify())
 		.pipe(rename('gulp-cache-stream.min.js'))
 		.pipe(gulp.dest('dist'));
-})
+});
 
 gulp.task('default', ['main', 'minify']);
